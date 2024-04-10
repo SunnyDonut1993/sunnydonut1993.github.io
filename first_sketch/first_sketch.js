@@ -16,8 +16,8 @@ function draw() {
  
  //eyes
  fill(240);
- rect(width / 2 - 75, height / 2 - 50, 50, 25);
- rect(width / 2 + 25, height / 2 - 50, 50, 25);
+ rect(width / 2 - 75, height / 2 - 50, 50, 20);
+ rect(width / 2 + 25, height / 2 - 50, 50, 20);
   
   //iris
    fill(140, 69, 18);
@@ -28,4 +28,8 @@ function draw() {
    fill(0);
  rect(width / 2 - 55, height / 2 - 41, 8);
  rect(width / 2 + 40, height / 2 - 41, 8);
+ 
+ //mouth
+ fill(0);
+ rect(width / 2 - 45, height / 2 + 45, 60, 10);
 }
