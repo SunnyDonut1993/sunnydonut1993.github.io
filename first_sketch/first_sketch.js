@@ -1,10 +1,10 @@
-let hairColor, skinColor, eyeColor;
+ let hairColor, skinColor, eyeColor;
 
 function setup() {
   createCanvas(600, 600);
   hairColor = color(50, 30, 20);
   skinColor = color(255, 204, 153);
-  eyeColor = color(0);
+  eyeColor = color(140, 69, 18);
 }
 
 function draw() {
@@ -32,4 +32,13 @@ function draw() {
  //mouth
  fill(0);
  rect(width / 2 - 45, height / 2 + 45, 60, 10);
+ 
+ //hair
+ fill(50, 30, 20);
+ rect(width / 2 - 100, height / 2 - 100, 200, 25);
+ 
+ //body
+ stroke(0);
+ fill(240);
+ rect(width / 2 - 150, height / 2 +100, 300, 400);
 }
