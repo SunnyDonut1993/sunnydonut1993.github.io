@@ -1,57 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>diy photoshop</title>
-
-<!-- Latest compiled and minified CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Latest compiled JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-</head>
-<ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link" href="index.html">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="page2.html">Glitches Series</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="page3.html">Mashup</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="page4.html">Minecraft Sculpture</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="page5.html">Netart</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="selfie.html">p5.js Coding</a>
-  </li>
-<li class="nav-item">
-    <a class="nav-link" href="diyph.html">Diy Photoshop</a>
-  </li>
-<li class="nav-item">
-    <a class="nav-link active" href="gameball.html">Ball Game</a>
-  </li>
-</ul>
-
-<body style="background-color:white;font-family: Arial, Helvetica, sans-serif;color:black;">
-<center>
-<br>
-<br>
-<h1> Ball Game
-</h1>
-<div><center>
-<iframe src="ballgame/index.html" height="1080" width="1920" title="DIY"></iframe>
-</div></center>
-
-<pre> <center> var ballx = 300;
+var ballx = 300;
 var bally = 300;
 var ballSize = 40;
 var score = 0;
@@ -167,8 +114,3 @@ function levelFour() {
     image(img, ballx - ballSize * 2, bally - ballSize * 2, ballSize * 4, ballSize * 4);
   }
 } // end level four
-</pre></center>
-
-</body>
-</html>
-
